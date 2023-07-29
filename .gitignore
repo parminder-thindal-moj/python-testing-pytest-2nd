@@ -1,5 +1,5 @@
 .pytest_cache/*
 
-ch1/__pycache__
+ch1/__pycache__/*
 
 *venv
