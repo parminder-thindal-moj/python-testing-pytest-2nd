@@ -6,11 +6,11 @@ A repo to go through the tasks and exercises in the Python Testing with Python (
 
 Download the source code from [here](https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/)
 
-## Venv
+### Venv
 
 Create new venv using `python3 -m venv venv`
 
-Then install the relevant packages in the requirements file - `requirements.txt`
+Then install the relevant packages in the `requirements.txt`
 
 If prompted - upgrade pip.
 
