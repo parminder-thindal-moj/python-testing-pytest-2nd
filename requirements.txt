@@ -1,12 +1,5 @@
-cards @ file:///Users/parminder.thindal/Projects/python-testing-pytest-2nd/code/cards_proj
-click==7.1.2
-colorama==0.4.6
-commonmark==0.9.1
 iniconfig==2.0.0
-packaging==23.1
-pluggy==1.2.0
-Pygments==2.15.1
-pytest==7.4.0
-rich==10.7.0
-tinydb==4.5.1
-typer==0.3.2
+packaging==23.2
+pip==23.3.1
+pluggy==1.3.0
+pytest==7.4.3
