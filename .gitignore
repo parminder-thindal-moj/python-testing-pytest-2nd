@@ -1,6 +1,5 @@
-.pytest_cache/*
+**/__pycache__/
 
-ch1/__pycache__/*
 .DS_Store
 
 *venv
