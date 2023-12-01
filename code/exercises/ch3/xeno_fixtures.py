@@ -43,7 +43,7 @@ def xeno_list():
               "reyn",
               "dunban"]
     
-    print("before yeild")
+    print("before yield")
     yield x_list
     print("after yield")
 

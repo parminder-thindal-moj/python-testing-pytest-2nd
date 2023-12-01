@@ -9,6 +9,7 @@ def test_empty():
         db = cards.CardsDB(db_path)
 
         count = db.count()
-        db.close()
 
         assert count == 0
+        
+        db.close()

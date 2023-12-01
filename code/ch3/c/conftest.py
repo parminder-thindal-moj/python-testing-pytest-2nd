@@ -32,7 +32,7 @@ def some_cards():
     ]
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture()
 def non_empty_db(cards_db, some_cards):
     """CardsDB object that's been populated with 'some_cards'"""
     for c in some_cards:
