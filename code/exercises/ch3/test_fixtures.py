@@ -1,7 +1,7 @@
 import pytest
 
 @pytest.fixture()
-def some_dict():
+def xeno_dict():
     """Returns a dict of Shulk's bio from Xenoblade Chronicles"""
     a_dict = {
         "name": "shulk",
@@ -12,9 +12,9 @@ def some_dict():
     
     return a_dict
 
-def test_some_dict(some_dict):
+def test_some_dict(xeno_dict):
     """Test whether a dict is a dict"""
-    assert type(some_dict) == dict
+    assert type(xeno_dict) == dict
 
 
 @pytest.fixture(scope="module")
